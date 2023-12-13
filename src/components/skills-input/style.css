@@ -1,0 +1,32 @@
+.skills-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    margin-top: 16px;
+    height: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.32);
+    border-radius: 8px;
+}
+
+.skills-title
+{
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.skills-checkboxes
+{
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.skills-error{
+    color: salmon;
+    font-size: small;
+    font-weight: 200;
+}
